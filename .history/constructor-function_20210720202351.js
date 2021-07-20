@@ -9,16 +9,16 @@ function Person(firstName, lastName) {
     }
 }
 
-const dewa = new Person("Dewa Gede", "Agung Ari");
-// dewa.firstName = "Dewa Gede";
-// dewa.lastName = "Agung Ari"
+const dewa = new Person();
+dewa.firstName = "Dewa Gede";
+dewa.lastName = "Agung Ari"
 dewa.sayHello("Dewa Gede Agung");
 
 
 
-const ari = new Person("Dewa Made","Putra Angga");
-// ari.firstName = "Agung Ari";
-// ari.lastName = "Dewa Gede";
+const ari = new Person();
+ari.firstName = "Agung Ari";
+ari.lastName = "Dewa Gede";
 ari.sayHello("Septiyadi");
 
 

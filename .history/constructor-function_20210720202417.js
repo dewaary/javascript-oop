@@ -16,7 +16,7 @@ dewa.sayHello("Dewa Gede Agung");
 
 
 
-const ari = new Person("Dewa Made","Putra Angga");
+const ari = new Person();
 // ari.firstName = "Agung Ari";
 // ari.lastName = "Dewa Gede";
 ari.sayHello("Septiyadi");
